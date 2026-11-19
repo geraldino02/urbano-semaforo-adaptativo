@@ -1,0 +1,432 @@
+{
+  "total_veiculos": 14105,
+  "intervalo_atual": 1,
+  "veiculos_na_tela": 5,
+  "densidade_media": 4.2,
+  "fluxo": "BAIXO",
+  "ultima_atualizacao": "2026-11-06 10:28:15",
+  "tempo_intervalo": 60,
+  "frame_atual": 281,
+  "stream_status": "ao_vivo",
+  "fps_processamento": 9.0,
+  "fonte": "LIVE - YouTube",
+  "semaforo": {
+    "fixo": {
+      "estado": "VERDE",
+      "tempo_restante": 4.9,
+      "tempo_verde_config": 35,
+      "fila_atual": 0.0,
+      "tempo_medio_espera_s": 0.0,
+      "veiculos_atendidos": 1
+    },
+    "adaptativo": {
+      "estado": "VERDE",
+      "tempo_restante": 1.4,
+      "tempo_verde_atual": 31.5,
+      "fila_atual": 0.0,
+      "tempo_medio_espera_s": 0.0,
+      "veiculos_atendidos": 1
+    },
+    "comparativo": {
+      "reducao_tempo_espera_pct": 0.0,
+      "segundos_economizados_por_veiculo": 0.0
+    },
+    "motor_decisao": {
+      "modo_sensor": "VEICULAR",
+      "calibrado_automaticamente": true,
+      "confianca_calibracao_pct": 0,
+      "acao_atual": "ESTENDER_VERDE",
+      "justificativa_decisao": "Fluxo intenso detectado (5 veiculos na via). Estendendo verde."
+    }
+  },
+  "semaforo_real": {
+    "cor_atual": "VERMELHO",
+    "fase_pedestre": "VERDE_FIXO",
+    "cor_pedestre": "VERDE",
+    "tipo_semaforo": "PEDESTRE",
+    "modo_efetivo": "PEDESTRE",
+    "tempo_na_fase_s": 29.0,
+    "ultimo_verde_real_s": 0.0,
+    "ultimo_vermelho_real_s": 0.0,
+    "ultimo_amarelo_real_s": 0.0,
+    "ciclo_total_real_s": 0.0,
+    "ciclos_medidos": 0,
+    "caixa_detectada": [
+      47,
+      120,
+      70,
+      180
+    ],
+    "roi_ativa": [
+      47,
+      120,
+      70,
+      180
+    ],
+    "detalhes_pedestre": {
+      "verde_fixo_s": 0.0,
+      "verde_piscante_s": 0.0,
+      "vermelho_piscante_s": 0.0,
+      "vermelho_fixo_s": 0.0
+    }
+  },
+  "motor_decisao": {
+    "modo_sensor": "VEICULAR",
+    "calibrado_automaticamente": true,
+    "confianca_calibracao_pct": 0,
+    "acao_atual": "ESTENDER_VERDE",
+    "justificativa_decisao": "Fluxo intenso detectado (5 veiculos na via). Estendendo verde."
+  },
+  "historico": [
+    {
+      "timestamp": "16:30:08",
+      "veiculos": 13,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13706,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:31:09",
+      "veiculos": 7,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13713,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:32:09",
+      "veiculos": 19,
+      "fluxo": "ALTO",
+      "total_acumulado": 13732,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:33:09",
+      "veiculos": 6,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13738,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:34:09",
+      "veiculos": 6,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13744,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:35:09",
+      "veiculos": 8,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13752,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "16:36:09",
+      "veiculos": 13,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13765,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:37:09",
+      "veiculos": 13,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13778,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:38:09",
+      "veiculos": 2,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13780,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:39:09",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 13795,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:40:10",
+      "veiculos": 14,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13809,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:41:10",
+      "veiculos": 8,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13817,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:42:10",
+      "veiculos": 17,
+      "fluxo": "ALTO",
+      "total_acumulado": 13834,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "16:43:10",
+      "veiculos": 7,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13841,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:44:10",
+      "veiculos": 10,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13851,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:45:10",
+      "veiculos": 9,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13860,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:46:10",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 13875,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:47:10",
+      "veiculos": 11,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13886,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:48:10",
+      "veiculos": 7,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13893,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:49:10",
+      "veiculos": 17,
+      "fluxo": "ALTO",
+      "total_acumulado": 13910,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:50:10",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 13925,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:51:10",
+      "veiculos": 9,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13934,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:52:11",
+      "veiculos": 6,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13940,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "16:53:11",
+      "veiculos": 14,
+      "fluxo": "ALTO",
+      "total_acumulado": 13954,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:54:11",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 13969,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:55:11",
+      "veiculos": 9,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13978,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:56:11",
+      "veiculos": 9,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 13987,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:57:11",
+      "veiculos": 4,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13991,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:58:12",
+      "veiculos": 7,
+      "fluxo": "BAIXO",
+      "total_acumulado": 13998,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "16:59:12",
+      "veiculos": 7,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14005,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "17:00:12",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 14020,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "17:01:12",
+      "veiculos": 5,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14025,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "17:02:12",
+      "veiculos": 15,
+      "fluxo": "ALTO",
+      "total_acumulado": 14040,
+      "sinal_real": "AMARELO"
+    },
+    {
+      "timestamp": "17:03:12",
+      "veiculos": 14,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 14054,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "17:04:12",
+      "veiculos": 13,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 14067,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "17:05:12",
+      "veiculos": 10,
+      "fluxo": "MÉDIO",
+      "total_acumulado": 14077,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "17:06:12",
+      "veiculos": 18,
+      "fluxo": "ALTO",
+      "total_acumulado": 14095,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "22:53:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14098,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "22:54:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14099,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "22:55:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14100,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "22:56:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14100,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "22:57:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14100,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "22:58:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14100,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "22:59:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14101,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "23:00:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14102,
+      "sinal_real": "VERDE"
+    },
+    {
+      "timestamp": "23:01:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14103,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "23:02:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14103,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "23:03:11",
+      "veiculos": 1,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14104,
+      "sinal_real": "VERMELHO"
+    },
+    {
+      "timestamp": "23:04:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14104,
+      "sinal_real": "AMARELO"
+    },
+    {
+      "timestamp": "23:05:11",
+      "veiculos": 0,
+      "fluxo": "BAIXO",
+      "total_acumulado": 14104,
+      "sinal_real": "VERMELHO"
+    }
+  ]
+}
